@@ -2,7 +2,7 @@ This repo contains all microservices to demonstrate load balancing and service d
 - we are using FEIGN for load balancing and for making api calls among svcs
 - we are using eureka for service discovery
 - currency-exchange-svc, currency-conversion-svc, api-gateway are registered as eureka clients and naming-server is eureka server
-- currency-exchange-svc running on port 8000 (Multiple instances are created locally in the idea).
+- currency-exchange-svc running on port 8000 (Multiple instances are created locally in the IDEA).
 - currency-convesion-svc is running on port 8100
 - api-gateway is running on port 8765
 - naming-server is running on port 8761
